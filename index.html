@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Transportation Survey</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Transportation Survey</h2>
+    </div>
+    <form id="transportation_survey">
+      <div class="form-group">
+        <p>In the past year, I have used the following modes of transportation to travel to work or school:</p>
+        <input type="checkbox" name="warning-signs" value="5">Loss of Sleep.<br>
+        <input type="checkbox" name="warning-signs" value="3">Feeling overwhelmed.<br>
+        <input type="checkbox" name="warning-signs" value="4">Loss of energy.<br>
+        <input type="checkbox" name="warning-signs" value="2">Dry mouth.<br>
+        <input type="checkbox" name="warning-signs" value="1">Constant worrying.<br>       
+      </div>
+      <div class="form-group">
+        <p>In the past year, I have used the following modes of transportation to travel to other activities and events:</p>
+        <input type="checkbox" name="health-symptoms" value="3">High blood pressure.<br>
+        <input type="checkbox" name="health-symptoms" value="2">Frequent headaches.<br>
+        <input type="checkbox" name="health-symptoms" value="5">Chestpain.<br>
+        <input type="checkbox" name="health-symptoms" value="1">Upset stomach.<br>
+        <input type="checkbox" name="health-symptoms" value="4">Frequent illness.<br>        
+      </div>
+      <div class="form-group">
+        <p>In the past year, I have used the following modes of transportation to travel to other activities and events:</p>
+        <input type="checkbox" name="coping-methods" value="2">Riding a bike.<br>
+        <input type="checkbox" name="coping-methods" value="4">Hanging with friends.<br>
+        <input type="checkbox" name="coping-methods" value="3">Being creative.<br>
+        <input type="checkbox" name="coping-methods" value="5">Walking.<br>
+        <input type="checkbox" name="coping-methods" value="1">Cooking.<br>        
+      </div>warning-signs
+      <button type="submit">Submit Survey</button>
+    </form>
+    <span id="work-responses">
+      <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+    </span>
+    <br>
+    <span id="fun-responses">
+      <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+    </span>
+  </div>
+</body>
+</html>
